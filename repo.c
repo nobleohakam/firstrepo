@@ -1,12 +1,13 @@
 #include "stdio.h"
-int main () {
-    int s = 0;
-    printf("Give me a number: ");
-    scanf("%d\n", &s);
-    s *= 5;
-    printf("num * 5 = %d \n", s);
-    s /= 3;
-    printf("num / 3 = %d \n", s);
-    return(0);
 
+
+/* this is a commentl. */
+
+int main(int argc, char const *argv[]) {
+    int distance = 100;
+
+    //this is also a commentl
+
+    printf("You are %d miles away.\n", distance);
+    return 0;
 }
